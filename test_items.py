@@ -9,4 +9,5 @@ def test_button_add_to_basket(browser):
     time.sleep(30)
     addToBasket = browser.find_element(By.CSS_SELECTOR, "#add_to_basket_form > button").is_enabled()
     assert addToBasket, "No 'add to basket' button."
-
+    
+    
